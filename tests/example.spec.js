@@ -8,6 +8,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
   await page.goto('https://google.fr')
   await page.locator('//div[@class="hello"]')
+  await page.locator("")
 });
 
 test('get started link', async ({ page }) => {
