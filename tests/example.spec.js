@@ -9,7 +9,7 @@ test('has title', async ({ page }) => {
   await page.goto('https://google.fr')
   await page.locator('//div[@class="hello"]')
   await page.locator("")
-  await page.waitForSelector('')
+  await page.locator("")
 });
 
 test('get started link', async ({ page }) => {
