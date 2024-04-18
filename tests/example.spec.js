@@ -10,6 +10,7 @@ test('has title', async ({ page }) => {
   await page.locator('//div[@class="hello"]')
   await page.locator("")
   await page.locator("")
+  await page.locator("")
 });
 
 test('get started link', async ({ page }) => {
